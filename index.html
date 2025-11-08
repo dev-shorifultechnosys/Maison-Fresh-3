@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            50: '#faf8f3',
+                            100: '#f5f0e6',
+                            200: '#e8ddc4',
+                            300: '#d4bc8f',
+                            400: '#c4a670',
+                            500: '#b8935a',
+                            600: '#a67c44',
+                            700: '#8a6539',
+                            800: '#6f5232',
+                            900: '#5c442b',
+                        },
+                        turquoise: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            300: '#5eead4',
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script> window.FontAwesomeConfig = { autoReplaceSvg: 'nest'};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        ::-webkit-scrollbar { display: none;}
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-turquoise-50 text-gray-900">
+
+<header id="header" class="bg-black text-white sticky top-0 z-50 border-b border-gold-700">
+    <div class="container mx-auto px-6">
+        <div class="flex items-center justify-between py-3 border-b border-gray-800">
+            <div class="flex items-center space-x-8 text-xs font-light tracking-wide">
+                <a href="#" class="hover:text-gold-400 transition duration-300 flex items-center">
+                    <i class="fa-solid fa-phone text-turquoise-400 mr-2"></i>
+                    +1 (416) 555-0123
+                </a>
+                <a href="#" class="hover:text-gold-400 transition duration-300 flex items-center">
+                    <i class="fa-solid fa-envelope text-turquoise-400 mr-2"></i>
+                    hello@gourmetfarmacy.com
+                </a>
+            </div>
+            <div class="flex items-center space-x-6 text-xs font-light tracking-wide">
+                <a href="#" class="hover:text-gold-400 transition duration-300">Store Locator</a>
+                <a href="#" class="hover:text-gold-400 transition duration-300">My Account</a>
+                <div class="flex items-center space-x-3">
+                    <a href="#" class="hover:text-gold-400 transition duration-300"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-gold-400 transition duration-300"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-gold-400 transition duration-300"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex items-center justify-between py-6">
+            <div class="flex items-center space-x-12">
+                <img src="https://leanlivingjourney.com/wp-content/uploads/2025/10/Untitled-design-2-1.png" width="65px;" height="65px;">
+                <a href="#" class="text-3xl font-bold tracking-tight">
+                    <span class="text-turquoise-400">MAISON</span>
+                    <span class="text-gold-400">FRESH</span>
+                </a>
+            </div>
+            
+            <nav class="flex items-center space-x-10">
+                <a href="#" class="text-sm font-medium tracking-wide hover:text-gold-400 transition duration-300 border-b-2 border-gold-400 pb-1">Home</a>
+                <a href="#" class="text-sm font-medium tracking-wide hover:text-gold-400 transition duration-300">Our Story</a>
+                <a href="#" class="text-sm font-medium tracking-wide hover:text-gold-400 transition duration-300">Shop Produce</a>
+                <a href="#" class="text-sm font-medium tracking-wide hover:text-gold-400 transition duration-300">Prepared Foods</a>
+                <a href="#" class="text-sm font-medium tracking-wide hover:text-gold-400 transition duration-300">Contact Us</a>
+            </nav>
+            
+            <div class="flex items-center space-x-6">
+                <button class="hover:text-gold-400 transition duration-300">
+                    <i class="fa-solid fa-magnifying-glass text-lg"></i>
+                </button>
+                <button class="hover:text-gold-400 transition duration-300 relative">
+                    <i class="fa-solid fa-heart text-lg"></i>
+                    <span class="absolute -top-2 -right-2 bg-turquoise-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
+                </button>
+                <button class="hover:text-gold-400 transition duration-300 relative">
+                    <i class="fa-solid fa-shopping-bag text-lg"></i>
+                    <span class="absolute -top-2 -right-2 bg-gold-500 text-black text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">5</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="hero-section" class="relative h-[700px] overflow-hidden">
+    <div class="absolute inset-0">
+        <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/824c6ee28d-831e12f215fe821b0f1c.png" alt="Luxurious French market with fresh organic produce, artisan foods, elegant display, warm golden lighting, premium quality" />
+        <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
+    </div>
+    
+    <div class="container mx-auto px-6 h-full relative z-10">
+        <div class="flex items-center h-full">
+            <div class="max-w-2xl">
+                <p class="text-turquoise-400 text-sm font-medium tracking-widest mb-4 uppercase">Farm Fresh & Artisan Crafted</p>
+                <h1 class="text-7xl font-bold text-white mb-6 leading-tight">
+                    Parisian Elegance<br/>
+                    <span class="text-gold-400">Toronto Authenticity</span>
+                </h1>
+                <p class="text-xl text-gray-200 mb-8 leading-relaxed font-light">
+                    Discover our curated selection of spray-free produce, artisan prepared foods, and gourmet essentials. Where French boutique sophistication meets local farm-fresh quality.
+                </p>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="bg-gold-500 text-black px-10 py-4 font-semibold tracking-wide hover:bg-gold-400 transition duration-300 inline-flex items-center">
+                        Shop Now
+                        <i class="fa-solid fa-arrow-right ml-3"></i>
+                    </a>
+                    <a href="#" class="border-2 border-white text-white px-10 py-4 font-semibold tracking-wide hover:bg-white hover:text-black transition duration-300">
+                        Our Story
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+        <div class="flex flex-col items-center text-white animate-bounce">
+            <span class="text-xs tracking-widest mb-2">Scroll to Explore</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </div>
+</section>
+
+<section id="announcement-bar" class="bg-turquoise-500 text-white py-3">
+    <div class="container mx-auto px-6">
+        <div class="flex items-center justify-center space-x-8 text-sm font-medium">
+            <div class="flex items-center">
+                <i class="fa-solid fa-truck-fast mr-2"></i>
+                <span>Free Local Delivery on Orders $75+</span>
+            </div>
+            <div class="w-px h-4 bg-white/30"></div>
+            <div class="flex items-center">
+                <i class="fa-solid fa-leaf mr-2"></i>
+                <span>100% Spray-Free Produce</span>
+            </div>
+            <div class="w-px h-4 bg-white/30"></div>
+            <div class="flex items-center">
+                <i class="fa-solid fa-clock mr-2"></i>
+                <span>Order by 2PM for Same-Day Delivery</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="our-story-section" class="py-24 bg-turquoise-50">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+                <div class="h-[500px] overflow-hidden rounded-lg shadow-2xl">
+                    <img class="w-full h-full object-cover" src="https://leanlivingjourney.com/wp-content/uploads/2025/11/Your-paragraph-text-2.png" alt="Artistic black and white photo of a charming Parisian street market with a stall full of fresh produce. A hint of gold color is subtly added to some vegetables. Evokes a sense of heritage and authenticity." />
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-brand-black tracking-widest uppercase mb-2">Our Story</h3>
+                    <h2 class="text-5xl font-serif font-bold text-brand-black mb-6">From Parisian Markets to Your Maison</h2>
+                    <p class="text-brand-black-300 mb-6 leading-relaxed">Maison Fresh began with a simple passion: to share the authentic, vibrant flavors found in the local markets of Paris. We believe that exceptional food starts with exceptional ingredients. Our journey is one of dedication to sourcing the finest organic produce and artisanal goods, crafting them into meals that are both nourishing and delightful.</p>
+                    <p class="text-brand-black-300 mb-8 leading-relaxed">We partner with local farmers who share our commitment to sustainable, spray-free agriculture, ensuring every dish we prepare is a testament to quality and taste.</p>
+                    <a href="#" class="bg-transparent border-2 border-brand-gold text-brand-gold font-bold py-3 px-8 rounded-full text-lg hover:bg-brand-gold hover:text-brand-dark transition-all duration-300">More...</a>
+                </div>
+            </div>
+        </section>
+
+<section id="featured-categories" class="py-24 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <p class="text-turquoise-600 text-sm font-semibold tracking-widest mb-3 uppercase">Curated Collections</p>
+            <h2 class="text-5xl font-bold text-gray-900 mb-4">Shop by Category</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto font-light">
+                From farm-fresh produce to artisan prepared meals, discover our carefully selected offerings
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div id="category-produce" class="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                <div class="h-80 overflow-hidden">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/af0f4ff536-851559b9eb5640184600.png" alt="Fresh organic vegetables and fruits display, farmers market aesthetic, vibrant colors, natural lighting" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-3xl font-bold text-white">Fresh Produce</h3>
+                        <div class="bg-gold-500 text-black px-3 py-1 text-xs font-bold">SPRAY-FREE</div>
+                    </div>
+                    <p class="text-gray-200 mb-4 font-light">Farm-direct seasonal vegetables & fruits</p>
+                    <a href="#" class="text-gold-400 font-semibold inline-flex items-center group-hover:text-gold-300">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="category-salads" class="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                <div class="h-80 overflow-hidden">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/60600edb20-a95146523731eb9c2487.png" alt="Gourmet artisan salads in elegant bowls, fresh ingredients, restaurant quality presentation" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-3xl font-bold text-white">Artisan Salads</h3>
+                        <div class="bg-turquoise-500 text-white px-3 py-1 text-xs font-bold">DAILY FRESH</div>
+                    </div>
+                    <p class="text-gray-200 mb-4 font-light">Chef-crafted salads made daily</p>
+                    <a href="#" class="text-gold-400 font-semibold inline-flex items-center group-hover:text-gold-300">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="category-soups" class="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                <div class="h-80 overflow-hidden">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/96c60b086a-1e2b4e5140f2b857139d.png" alt="Homemade gourmet soups in elegant bowls, steam rising, rustic artisan presentation, warm lighting" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-3xl font-bold text-white">Hearty Soups</h3>
+                        <div class="bg-gold-500 text-black px-3 py-1 text-xs font-bold">HOUSE-MADE</div>
+                    </div>
+                    <p class="text-gray-200 mb-4 font-light">Comfort in every spoonful</p>
+                    <a href="#" class="text-gold-400 font-semibold inline-flex items-center group-hover:text-gold-300">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="category-vegan" class="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                <div class="h-80 overflow-hidden">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/ed410c028b-7a9dc5b3da14d9d0f308.png" alt="Colorful vegan meals, plant-based dishes, elegant plating, healthy gourmet food photography" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-3xl font-bold text-white">Vegan Meals</h3>
+                        <div class="bg-turquoise-500 text-white px-3 py-1 text-xs font-bold">PLANT-BASED</div>
+                    </div>
+                    <p class="text-gray-200 mb-4 font-light">Nourishing plant-powered cuisine</p>
+                    <a href="#" class="text-gold-400 font-semibold inline-flex items-center group-hover:text-gold-300">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="category-prepared" class="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                <div class="h-80 overflow-hidden">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/6256326a7b-0bdc0dccd5df88323fe6.png" alt="Gourmet prepared meals, ready-to-eat dishes, elegant food containers, premium quality" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-3xl font-bold text-white">Prepared Foods</h3>
+                        <div class="bg-gold-500 text-black px-3 py-1 text-xs font-bold">CHEF-MADE</div>
+                    </div>
+                    <p class="text-gray-200 mb-4 font-light">Restaurant quality, ready to enjoy</p>
+                    <a href="#" class="text-gold-400 font-semibold inline-flex items-center group-hover:text-gold-300">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="category-more" class="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+                <div class="h-80 overflow-hidden">
+                    <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/aee4e90c5d-5ee7611a87bce28c5f49.png" alt="Artisan pantry items, gourmet specialty foods, organic products, elegant packaging" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 p-8">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-3xl font-bold text-white">Pantry Essentials</h3>
+                        <div class="bg-turquoise-500 text-white px-3 py-1 text-xs font-bold">CURATED</div>
+                    </div>
+                    <p class="text-gray-200 mb-4 font-light">Premium oils, grains & specialty items</p>
+                    <a href="#" class="text-gold-400 font-semibold inline-flex items-center group-hover:text-gold-300">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="featured-products" class="py-24 bg-turquoise-50">
+    <div class="container mx-auto px-6">
+        <div class="flex items-end justify-between mb-16">
+            <div>
+                <p class="text-turquoise-600 text-sm font-semibold tracking-widest mb-3 uppercase">This Week's Selection</p>
+                <h2 class="text-5xl font-bold text-gray-900">Featured Products</h2>
+            </div>
+            <a href="#" class="text-gold-600 font-semibold inline-flex items-center hover:text-gold-700 transition">
+                View All Products
+                <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div id="product-1" class="group bg-white border border-gray-200 hover:border-gold-400 transition-all duration-300 hover:shadow-xl">
+                <div class="relative overflow-hidden h-80">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/e15a87b168-42cf4669029336bb5773.png" alt="Organic heirloom tomatoes, vibrant red, fresh produce photography, premium quality" />
+                    <div class="absolute top-4 right-4 bg-turquoise-500 text-white px-3 py-1 text-xs font-bold">NEW</div>
+                    <div class="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <button class="bg-white text-gray-900 w-10 h-10 rounded-full shadow-lg hover:bg-gold-400 hover:text-white transition mb-2">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                    <button class="absolute bottom-4 left-4 right-4 bg-black text-white py-3 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-gold-500 hover:text-black">
+                        Quick Add
+                    </button>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs font-semibold text-turquoise-600 uppercase tracking-wide">Produce</span>
+                        <div class="flex items-center text-gold-500">
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <span class="text-gray-600 text-xs ml-1">(24)</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-gold-600 transition">Heirloom Tomatoes</h3>
+                    <p class="text-sm text-gray-600 mb-4">Organic, spray-free, locally grown</p>
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <span class="text-2xl font-bold text-gray-900">$8.99</span>
+                            <span class="text-sm text-gray-500">/lb</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="product-2" class="group bg-white border border-gray-200 hover:border-gold-400 transition-all duration-300 hover:shadow-xl">
+                <div class="relative overflow-hidden h-80">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/d41c72a88b-7733e88e626d21c44e8a.png" alt="Artisan kale caesar salad in clear container, gourmet presentation, fresh ingredients" />
+                    <div class="absolute top-4 right-4 bg-gold-500 text-black px-3 py-1 text-xs font-bold">BESTSELLER</div>
+                    <div class="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <button class="bg-white text-gray-900 w-10 h-10 rounded-full shadow-lg hover:bg-gold-400 hover:text-white transition mb-2">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                    <button class="absolute bottom-4 left-4 right-4 bg-black text-white py-3 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-gold-500 hover:text-black">
+                        Quick Add
+                    </button>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs font-semibold text-turquoise-600 uppercase tracking-wide">Salads</span>
+                        <div class="flex items-center text-gold-500">
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <span class="text-gray-600 text-xs ml-1">(89)</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-gold-600 transition">Kale Caesar Salad</h3>
+                    <p class="text-sm text-gray-600 mb-4">House-made dressing, parmesan</p>
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <span class="text-2xl font-bold text-gray-900">$14.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="product-3" class="group bg-white border border-gray-200 hover:border-gold-400 transition-all duration-300 hover:shadow-xl">
+                <div class="relative overflow-hidden h-80">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/fef14314c8-f60df740d4fe396c0821.png" alt="Butternut squash soup in elegant bowl, steam rising, garnished, restaurant quality" />
+                    <div class="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <button class="bg-white text-gray-900 w-10 h-10 rounded-full shadow-lg hover:bg-gold-400 hover:text-white transition mb-2">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                    <button class="absolute bottom-4 left-4 right-4 bg-black text-white py-3 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-gold-500 hover:text-black">
+                        Quick Add
+                    </button>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs font-semibold text-turquoise-600 uppercase tracking-wide">Soups</span>
+                        <div class="flex items-center text-gold-500">
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-regular fa-star text-xs"></i>
+                            <span class="text-gray-600 text-xs ml-1">(42)</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-gold-600 transition">Butternut Squash Soup</h3>
+                    <p class="text-sm text-gray-600 mb-4">Roasted, creamy, hint of sage</p>
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <span class="text-2xl font-bold text-gray-900">$12.99</span>
+                            <span class="text-sm text-gray-500">/qt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="product-4" class="group bg-white border border-gray-200 hover:border-gold-400 transition-all duration-300 hover:shadow-xl">
+                <div class="relative overflow-hidden h-80">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/c83c2c538d-fa50e80f22bd27be0b71.png" alt="Vegan buddha bowl, colorful vegetables, quinoa, chickpeas, tahini dressing, healthy meal" />
+                    <div class="absolute top-4 right-4 bg-turquoise-500 text-white px-3 py-1 text-xs font-bold">VEGAN</div>
+                    <div class="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <button class="bg-white text-gray-900 w-10 h-10 rounded-full shadow-lg hover:bg-gold-400 hover:text-white transition mb-2">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </div>
+                    <button class="absolute bottom-4 left-4 right-4 bg-black text-white py-3 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-gold-500 hover:text-black">
+                        Quick Add
+                    </button>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs font-semibold text-turquoise-600 uppercase tracking-wide">Vegan Meals</span>
+                        <div class="flex items-center text-gold-500">
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <i class="fa-solid fa-star text-xs"></i>
+                            <span class="text-gray-600 text-xs ml-1">(56)</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-gold-600 transition">Mediterranean Bowl</h3>
+                    <p class="text-sm text-gray-600 mb-4">Quinoa, roasted veggies, tahini</p>
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <span class="text-2xl font-bold text-gray-900">$16.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="brand-promise" class="py-24 bg-black text-white">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <p class="text-turquoise-400 text-sm font-semibold tracking-widest mb-4 uppercase">Our Commitment</p>
+                <h2 class="text-5xl font-bold mb-6 leading-tight">
+                    Spray-Free Promise<br/>
+                    <span class="text-gold-400">Farm to Table Excellence</span>
+                </h2>
+                <p class="text-xl text-gray-300 mb-8 leading-relaxed font-light">
+                    Every product at Gourmet Farmacy is carefully sourced from local farms committed to spray-free, sustainable practices. We believe in transparency, quality, and supporting our community of growers.
+                </p>
+                
+                <div class="space-y-6 mb-10">
+                    <div class="flex items-start">
+                        <div class="bg-gold-500 text-black w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                            <i class="fa-solid fa-leaf text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">100% Spray-Free</h3>
+                            <p class="text-gray-400 font-light">No synthetic pesticides or herbicides. Ever.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-turquoise-500 text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                            <i class="fa-solid fa-handshake text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Local Partnerships</h3>
+                            <p class="text-gray-400 font-light">Direct relationships with Ontario farmers and artisans.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-gold-500 text-black w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                            <i class="fa-solid fa-award text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Quality Guaranteed</h3>
+                            <p class="text-gray-400 font-light">If you're not delighted, we'll make it right.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#" class="bg-gold-500 text-black px-10 py-4 font-semibold tracking-wide hover:bg-gold-400 transition duration-300 inline-flex items-center">
+                    Learn Our Story
+                    <i class="fa-solid fa-arrow-right ml-3"></i>
+                </a>
+            </div>
+            
+            <div class="relative">
+                <div class="h-[600px] overflow-hidden rounded-lg shadow-2xl">
+                    <img class="w-full h-full object-cover" src="https://as1.ftcdn.net/jpg/02/20/46/12/1000_F_220461240_ZAkX0kpyMKlSXIpragMRhxAopcZJ1jvR.jpg" alt="Farmer harvesting fresh organic vegetables in field, golden hour lighting, authentic farming scene" />
+                </div>
+                <div class="absolute -bottom-8 -left-8 bg-turquoise-500 text-white p-8 rounded-lg shadow-xl max-w-xs">
+                    <div class="text-5xl font-bold mb-2">15+</div>
+                    <p class="text-lg font-light">Local farm partners across Ontario</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="chef-prepared" class="py-24 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <p class="text-turquoise-600 text-sm font-semibold tracking-widest mb-3 uppercase">Chef's Kitchen</p>
+            <h2 class="text-5xl font-bold text-gray-900 mb-4">Prepared with Passion</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto font-light">
+                Our culinary team creates restaurant-quality meals daily using only the finest spray-free ingredients. From classic comfort foods to innovative plant-based cuisine.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <div id="prepared-card-1" class="bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div class="flex items-start space-x-6">
+                    <div class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-lg">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/d2c9f9de31-3a5e88280a7e9c7816e6.png" alt="Gourmet lasagna, layers visible, cheese melted, Italian cuisine, restaurant plating" />
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-gold-100 text-gold-800 px-3 py-1 text-xs font-bold uppercase">Chef's Special</span>
+                            <span class="text-2xl font-bold text-gray-900">$24.99</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition">Classic Lasagna</h3>
+                        <p class="text-gray-600 mb-4 font-light leading-relaxed">
+                            Layers of house-made pasta, organic tomato sauce, grass-fed beef, and artisan cheeses. Serves 4-6.
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500 mb-4">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-clock mr-2 text-turquoise-500"></i>
+                                <span>Ready to heat</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-users mr-2 text-turquoise-500"></i>
+                                <span>Serves 4-6</span>
+                            </div>
+                        </div>
+                        <button class="bg-gold-500 text-white px-6 py-3 font-semibold hover:bg-turquoise-500 hover:text-black transition w-full">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="prepared-card-2" class="bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div class="flex items-start space-x-6">
+                    <div class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-lg">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/5d27136838-e45d3c9e723d75662d69.png" alt="Thai green curry with vegetables and tofu, coconut milk, fresh herbs, authentic presentation" />
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-turquoise-100 text-turquoise-800 px-3 py-1 text-xs font-bold uppercase">Vegan</span>
+                            <span class="text-2xl font-bold text-gray-900">$18.99</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition">Thai Green Curry</h3>
+                        <p class="text-gray-600 mb-4 font-light leading-relaxed">
+                            Aromatic coconut curry with seasonal vegetables and organic tofu. Served with jasmine rice. Serves 2-3.
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500 mb-4">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-leaf mr-2 text-turquoise-500"></i>
+                                <span>Plant-based</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-users mr-2 text-turquoise-500"></i>
+                                <span>Serves 2-3</span>
+                            </div>
+                        </div>
+                        <button class="bg-gold-500 text-white px-6 py-3 font-semibold hover:bg-turquoise-500 hover:text-black transition w-full">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="prepared-card-3" class="bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div class="flex items-start space-x-6">
+                    <div class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-lg">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/33b4e9a226-51dbd2e5c2f555079623.png" alt="Roasted chicken with herbs, crispy skin, vegetables, elegant dinner presentation" />
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-gold-100 text-gold-800 px-3 py-1 text-xs font-bold uppercase">Family Favorite</span>
+                            <span class="text-2xl font-bold text-gray-900">$32.99</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition">Herb Roasted Chicken</h3>
+                        <p class="text-gray-600 mb-4 font-light leading-relaxed">
+                            Free-range chicken roasted with fresh herbs, served with seasonal root vegetables. Serves 4-5.
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500 mb-4">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-drumstick-bite mr-2 text-turquoise-500"></i>
+                                <span>Free-range</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-users mr-2 text-turquoise-500"></i>
+                                <span>Serves 4-5</span>
+                            </div>
+                        </div>
+                        <button class="bg-gold-500 text-white px-6 py-3 font-semibold hover:bg-turquoise-500 hover:text-black transition w-full">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="prepared-card-4" class="bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group">
+                <div class="flex items-start space-x-6">
+                    <div class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-lg">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/6b62116947-25716606e5703f5a8f0d.png" alt="Quinoa power bowl with roasted vegetables, avocado, seeds, healthy meal prep" />
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-turquoise-100 text-turquoise-800 px-3 py-1 text-xs font-bold uppercase">Gluten-Free</span>
+                            <span class="text-2xl font-bold text-gray-900">$15.99</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition">Quinoa Power Bowl</h3>
+                        <p class="text-gray-600 mb-4 font-light leading-relaxed">
+                            Tri-color quinoa with roasted vegetables, avocado, and lemon-tahini dressing. Serves 1-2.
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500 mb-4">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-wheat-awn-circle-exclamation mr-2 text-turquoise-500"></i>
+                                <span>Gluten-free</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-users mr-2 text-turquoise-500"></i>
+                                <span>Serves 1-2</span>
+                            </div>
+                        </div>
+                        <button class="bg-gold-500 text-white px-6 py-3 font-semibold hover:bg-turquoise-500 hover:text-black transition w-full">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="#" class="inline-flex items-center text-gold-600 font-semibold text-lg hover:text-gold-700 transition">
+                View Full Prepared Foods Menu
+                <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="seasonal-highlight" class="py-24 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="bg-gradient-to-r from-black to-gray-900 rounded-2xl overflow-hidden shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="p-16 flex flex-col justify-center text-white">
+                    <p class="text-turquoise-400 text-sm font-semibold tracking-widest mb-4 uppercase">Limited Time</p>
+                    <h2 class="text-5xl font-bold mb-6 leading-tight">
+                        Fall Harvest<br/>
+                        <span class="text-gold-400">Collection</span>
+                    </h2>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed font-light">
+                        Celebrate the season with our curated selection of autumn's finest produce, from heirloom squash to crisp apples. Available for a limited time only.
+                    </p>
+                    
+                    <div class="space-y-4 mb-10">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-check-circle text-turquoise-400 mr-3 text-xl"></i>
+                            <span class="text-lg">Peak season freshness</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-check-circle text-turquoise-400 mr-3 text-xl"></i>
+                            <span class="text-lg">Ontario-grown varieties</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-check-circle text-turquoise-400 mr-3 text-xl"></i>
+                            <span class="text-lg">Chef recipe cards included</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4">
+                        <a href="#" class="bg-gold-500 text-black px-10 py-4 font-semibold tracking-wide hover:bg-gold-400 transition duration-300 inline-flex items-center">
+                            Shop Collection
+                            <i class="fa-solid fa-arrow-right ml-3"></i>
+                        </a>
+                        <span class="text-gray-400">Only until October 31st</span>
+                    </div>
+                </div>
+                
+                <div class="h-full min-h-[600px] overflow-hidden">
+                    <img class="w-full h-full object-cover" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/b290f41825-c893f13c2a1692eca3e3.png" alt="Autumn harvest display, pumpkins, squash, apples, fall vegetables, rustic wooden crates, warm lighting" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="py-24 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <p class="text-turquoise-600 text-sm font-semibold tracking-widest mb-3 uppercase">Customer Love</p>
+            <h2 class="text-5xl font-bold text-gray-900 mb-4">What Our Community Says</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto font-light">
+                Join thousands of Toronto families who trust us for their weekly groceries
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div id="testimonial-1" class="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                <div class="flex items-center text-gold-500 mb-4">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-gray-700 mb-6 leading-relaxed font-light italic">
+                    "The quality is unmatched. Every tomato, every leaf of lettuce is perfect. It's like having a French market in Toronto. The prepared foods have become our weeknight savior!"
+                </p>
+                <div class="flex items-center">
+                    <img src="https://leanlivingjourney.com/wp-content/uploads/2025/10/images-7.jpeg" alt="Customer" class="w-12 h-12 rounded-full mr-4 object-cover"/>
+                    <div>
+                        <p class="font-semibold text-gray-900">Sarah Mitchell</p>
+                        <p class="text-sm text-gray-500">Rosedale</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="testimonial-2" class="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                <div class="flex items-center text-gold-500 mb-4">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-gray-700 mb-6 leading-relaxed font-light italic">
+                    "As someone with multiple food sensitivities, I appreciate the transparency and care. Knowing everything is spray-free gives me peace of mind. The vegan options are incredible!"
+                </p>
+                <div class="flex items-center">
+                    <img src="https://leanlivingjourney.com/wp-content/uploads/2025/10/images.jpeg" alt="Customer" class="w-12 h-12 rounded-full mr-4 object-cover"/>
+                    <div>
+                        <p class="font-semibold text-gray-900">James Chen</p>
+                        <p class="text-sm text-gray-500">The Annex</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="testimonial-3" class="bg-white p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                <div class="flex items-center text-gold-500 mb-4">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-gray-700 mb-6 leading-relaxed font-light italic">
+                    "The delivery service is impeccable. Everything arrives perfectly packaged and fresh. It's like having a personal shopper at the finest market. Worth every penny!"
+                </p>
+                <div class="flex items-center">
+                    <img src="https://leanlivingjourney.com/wp-content/uploads/2025/10/images-6.jpeg" alt="Customer" class="w-12 h-12 rounded-full mr-4 object-cover"/>
+                    <div>
+                        <p class="font-semibold text-gray-900">Emily Rodriguez</p>
+                        <p class="text-sm text-gray-500">Yorkville</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-12 text-center">
+            <div class="inline-flex items-center space-x-8 bg-white px-12 py-6 rounded-lg shadow-lg">
+                <div class="text-center border-r border-gray-200 pr-8">
+                    <div class="text-4xl font-bold text-gray-900 mb-1">4.9</div>
+                    <div class="flex items-center text-gold-500 mb-1">
+                        <i class="fa-solid fa-star text-sm"></i>
+                        <i class="fa-solid fa-star text-sm"></i>
+                        <i class="fa-solid fa-star text-sm"></i>
+                        <i class="fa-solid fa-star text-sm"></i>
+                        <i class="fa-solid fa-star text-sm"></i>
+                    </div>
+                    <p class="text-sm text-gray-600">Average Rating</p>
+                </div>
+                <div class="text-center border-r border-gray-200 pr-8">
+                    <div class="text-4xl font-bold text-gray-900 mb-1">2,847</div>
+                    <p class="text-sm text-gray-600">Happy Customers</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-gray-900 mb-1">98%</div>
+                    <p class="text-sm text-gray-600">Would Recommend</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="delivery-service" class="py-24 bg-turquoise-50">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="order-2 lg:order-1">
+                <div class="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+                    <img class="w-full h-full object-cover" src="https://www.carepondicherry.com/images/projects/car-rental/vegetables-fruits-door-delivery.webp" alt="Delivery person with eco-friendly bags, fresh groceries, modern urban setting, professional service" />
+                </div>
+            </div>
+            
+            <div class="order-1 lg:order-2">
+                <p class="text-turquoise-600 text-sm font-semibold tracking-widest mb-4 uppercase">Convenient Delivery</p>
+                <h2 class="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    Fresh to Your Door<br/>
+                    <span class="text-turquoise-600">Same Day Available</span>
+                </h2>
+                <p class="text-xl text-gray-700 mb-8 leading-relaxed font-light">
+                    Experience the convenience of having premium, spray-free groceries delivered to your door. Order by 2 PM for same-day delivery across Toronto.
+                </p>
+                
+                <div class="space-y-6 mb-10">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start">
+                            <div class="bg-turquoise-500 text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fa-solid fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2 text-gray-900">Flexible Time Slots</h3>
+                                <p class="text-gray-600 font-light">Choose your preferred delivery window from 8 AM to 8 PM, 7 days a week.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start">
+                            <div class="bg-gold-500 text-black w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fa-solid fa-box text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2 text-gray-900">Eco-Friendly Packaging</h3>
+                                <p class="text-gray-600 font-light">Reusable bags and recyclable materials. We collect and reuse packaging on your next order.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-start">
+                            <div class="bg-turquoise-500 text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fa-solid fa-shield-halved text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2 text-gray-900">Contactless Options</h3>
+                                <p class="text-gray-600 font-light">Safe, secure delivery with contactless drop-off available for your peace of mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-black text-white p-6 rounded-lg">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-sm text-gray-400 mb-1">Free Delivery On</p>
+                            <p class="text-3xl font-bold">Orders $75+</p>
+                        </div>
+                        <div class="text-5xl text-gold-400">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="newsletter-signup" class="py-24 bg-black text-white">
+    <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-8">
+                <i class="fa-solid fa-envelope-open-text text-6xl text-gold-400 mb-6"></i>
+            </div>
+            <h2 class="text-5xl font-bold mb-6">Join Our Community</h2>
+            <p class="text-xl text-gray-300 mb-10 font-light leading-relaxed">
+                Be the first to know about new arrivals, seasonal specials, chef recipes, and exclusive offers. Plus, get 15% off your first order when you subscribe.
+            </p>
+            
+            <form class="max-w-2xl mx-auto mb-8">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <input type="email" placeholder="Enter your email address" class="flex-grow px-6 py-4 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400 font-light"/>
+                    <button type="submit" class="bg-gold-500 text-black px-10 py-4 font-semibold tracking-wide hover:bg-gold-400 transition duration-300 rounded-lg whitespace-nowrap">
+                        Subscribe Now
+                    </button>
+                </div>
+            </form>
+            
+            <div class="flex items-center justify-center space-x-8 text-sm text-gray-400">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-check-circle text-turquoise-400 mr-2"></i>
+                    <span>Weekly recipes</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fa-solid fa-check-circle text-turquoise-400 mr-2"></i>
+                    <span>Exclusive offers</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fa-solid fa-check-circle text-turquoise-400 mr-2"></i>
+                    <span>Unsubscribe anytime</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="instagram-feed" class="py-24 bg-turquoise-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <p class="text-turquoise-600 text-sm font-semibold tracking-widest mb-3 uppercase">Follow Along</p>
+            <h2 class="text-5xl font-bold text-gray-900 mb-4">@GourmetFarmacy</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto font-light">
+                Tag us in your culinary creations for a chance to be featured
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-10">
+            <div class="aspect-square overflow-hidden rounded-lg group cursor-pointer relative">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/545a4e8818-b2c7ab518a0a1414f4d6.png" alt="Fresh salad in bowl, Instagram food photography, natural lighting, overhead shot" />
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                </div>
+            </div>
+            <div class="aspect-square overflow-hidden rounded-lg group cursor-pointer relative">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/96aa5ecb33-c48c2b1a10e8b0092e15.png" alt="Farmers market produce display, colorful vegetables, Instagram aesthetic" />
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                </div>
+            </div>
+            <div class="aspect-square overflow-hidden rounded-lg group cursor-pointer relative">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/5e8e0a1907-b4da35c5c22db3e39369.png" alt="Artisan bread and pastries, bakery display, Instagram food styling" />
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                </div>
+            </div>
+            <div class="aspect-square overflow-hidden rounded-lg group cursor-pointer relative">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/1aa5f31dc3-15ba8a1300c7771ead7d.png" alt="Smoothie bowl with fresh fruits, healthy breakfast, Instagram flat lay" />
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                </div>
+            </div>
+            <div class="aspect-square overflow-hidden rounded-lg group cursor-pointer relative">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/25c1d8bdb1-5376e164fb3b9720c62d.png" alt="Chef preparing food, kitchen action shot, Instagram behind the scenes" />
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                </div>
+            </div>
+            <div class="aspect-square overflow-hidden rounded-lg group cursor-pointer relative">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/40127b0543-d600d9bef1a72532af4f.png" alt="Fresh herbs in pots, garden photography, Instagram botanical aesthetic" />
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-white text-3xl"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="#" class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-10 py-4 rounded-full font-semibold hover:from-purple-700 hover:to-pink-700 transition duration-300">
+                <i class="fa-brands fa-instagram mr-3 text-xl"></i>
+                Follow Us on Instagram
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+            <section id="contact-section" class="py-24 bg-turquoise-50">
+                <div class="container mx-auto px-6 text-center">
+                    <h2 class="text-5xl font-serif font-bold mb-4">Get In Touch</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto mb-12">Have a question or a special request? Our team is always here to help. Visit us at St. Lawrence Market or send us a message.</p>
+                    <div class="max-w-4xl mx-auto bg-brand-dark p-10 rounded-lg border border-gray-800 grid md:grid-cols-2 gap-8 text-left">
+                        <div>
+                            <h3 class="text-2xl font-serif font-bold mb-6">Send a Message</h3>
+                            <form class="space-y-4">
+                                <input type="text" placeholder="Your Name" class="w-full text-brand-turquoise border border-gray-700 rounded-md p-3 focus:outline-none focus:border-brand-gold transition-colors">
+                                <input type="email" placeholder="Your Email" class="w-full text-brand-turquoise border border-gray-700 rounded-md p-3 focus:outline-none focus:border-brand-gold transition-colors">
+                                <textarea placeholder="Your Message" rows="5" class="w-full text-brand-turquoise border border-gray-700 rounded-md p-3 focus:outline-none focus:border-brand-gold transition-colors"></textarea>
+                                <button type="submit" class="w-full text-brand-turquoise text-black font-bold py-3 rounded-md hover:bg-yellow-500 transition-colors">Submit</button>
+                            </form>
+                        </div>
+                        <div class="space-y-6">
+                            <h3 class="text-2xl font-serif font-bold mb-6">Contact Information</h3>
+                             <div class="flex items-start space-x-4">
+                                <i class="fa-solid fa-location-dot text-brand-turquoise text-xl mt-1"></i>
+                                <div>
+                                    <h4 class="font-bold">Visit Us</h4>
+                                    <p class="text-brand-black-300">93 Front St E, Toronto, ON M5E 1C3<br>St. Lawrence Market</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <i class="fa-solid fa-phone text-brand-turquoise text-xl mt-1"></i>
+                                <div>
+                                    <h4 class="font-bold">Call Us</h4>
+                                    <p class="text-brand-black-300">(416) 392-7219</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <i class="fa-solid fa-envelope text-brand-turquoise text-xl mt-1"></i>
+                                <div>
+                                    <h4 class="font-bold">Email Us</h4>
+                                    <p class="text-brand-black-300">hello@maisonfresh.ca</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<footer id="footer" class="bg-black text-white pt-20 pb-8">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+            <div class="lg:col-span-2">
+                <a href="#" class="text-3xl font-bold tracking-tight mb-6 inline-block">
+                    <img src="https://leanlivingjourney.com/wp-content/uploads/2025/10/Untitled-design-2-1.png" width="50px;" height="50px;">
+                    <span class="text-turquoise-400">MAISON</span>
+                    <span class="text-gold-400">FRESH</span>
+                </a>
+                <p class="text-gray-400 mb-6 leading-relaxed font-light">
+                    Toronto's premier destination for spray-free produce and artisan prepared foods. Where French boutique elegance meets local farm-fresh authenticity.
+                </p>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="bg-gray-800 hover:bg-gold-500 hover:text-black transition w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="bg-gray-800 hover:bg-gold-500 hover:text-black transition w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="bg-gray-800 hover:bg-gold-500 hover:text-black transition w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="bg-gray-800 hover:bg-gold-500 hover:text-black transition w-10 h-10 rounded-full flex items-center justify-center">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="text-lg font-semibold mb-6 text-gold-400">Shop</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Fresh Produce</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Artisan Salads</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Hearty Soups</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Vegan Meals</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Prepared Foods</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Pantry Essentials</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="text-lg font-semibold mb-6 text-gold-400">Company</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Our Story</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Our Farmers</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Sustainability</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Careers</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Press</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="text-lg font-semibold mb-6 text-gold-400">Support</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Help Center</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Delivery Info</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Returns</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Track Order</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">FAQs</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition font-light">Gift Cards</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-gray-800 pt-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center md:text-left">
+                    <p class="text-gray-400 text-sm font-light">
+                        Copyright © 2025 Gourmet Farmacy. All rights reserved.
+                    </p>
+                </div>
+                <div class="flex items-center justify-center md:justify-end space-x-6 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-white transition font-light">Privacy Policy</a>
+                    <span class="text-gray-700">|</span>
+                    <a href="#" class="text-gray-400 hover:text-white transition font-light">Terms of Service</a>
+                    <span class="text-gray-700">|</span>
+                    <a href="#" class="text-gray-400 hover:text-white transition font-light">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="floating-cart" class="fixed bottom-8 right-8 z-50">
+    <button class="bg-gold-500 text-black w-16 h-16 rounded-full shadow-2xl hover:bg-gold-400 transition-all duration-300 hover:scale-110 flex items-center justify-center relative">
+        <i class="fa-solid fa-shopping-bag text-2xl"></i>
+        <span class="absolute -top-2 -right-2 bg-turquoise-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center font-bold">5</span>
+    </button>
+</div>
+
+</body>
+</html>
